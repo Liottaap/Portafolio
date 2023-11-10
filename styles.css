@@ -6,14 +6,14 @@ body, h1, h2, p, ul {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #559bc7;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #007BFF;
+    background-color: #1b2d41;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -46,6 +46,6 @@ footer {
     margin-top: 20px;
     text-align: center;
     padding: 10px;
-    background-color: #007BFF;
+    background-color: #1b2d41
     color: #fff;
 }
