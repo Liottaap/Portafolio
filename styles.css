@@ -24,6 +24,7 @@ img {
     height: 150px;
     border: 1px solid black;
     object-fit: none;
+    border-radius: 5%;
   }
 
 nav ul {
