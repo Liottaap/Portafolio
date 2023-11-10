@@ -13,6 +13,7 @@ body {
 }
 
 header {
+    top: -20px;
     background-color: #1b2d41;
     color: #deddd2;
     text-align: center;
@@ -20,6 +21,9 @@ header {
 }
 
 img {
+    top: -36px;
+    left: -321px;
+    position: relative;
     width: 150px;
     height: 150px;
     border: 1px solid black;
