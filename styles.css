@@ -12,15 +12,12 @@ body {
     padding: 0;
 }
 
-header {
-    top: -20px;
-    background-color: #1b2d41;
-    color: #deddd2;
-    text-align: center;
-    padding: 10px;
-    justify-content: center; 
-    align-items: center;
-}
+    header {
+        background-color: #1b2d41;
+        color: #deddd2;
+        text-align: center;
+        padding: 10px;
+    }
 
 
 nav ul {
