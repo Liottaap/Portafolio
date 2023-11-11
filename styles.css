@@ -36,7 +36,14 @@ body {
     border-radius: 50%;
 
 }
+.contenedor-lista {
+    text-align: center; /* Centra la lista horizontalmente */
+}
 
+.contenedor-lista ul{
+    list-style-type: none; /* Elimina los estilos predeterminados de la lista desordenada */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
 
 nav ul {
     list-style-type: none;
