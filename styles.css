@@ -12,14 +12,14 @@ body {
     padding: 0;
 }
 
-header {
+#encabezado {
     background-color: #1b2d41;
     color: #deddd2;
     text-align: center;
     padding: 10px;
 }
 
-header img {
+#encabezado img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
