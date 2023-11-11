@@ -24,17 +24,6 @@ header {
 }
 
 
-img {
-    top: -36px;
-    left: -321px;
-    position: relative;
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
-    object-fit: none;
-    border-radius: 50%;
-  }
-
 nav ul {
     list-style-type: none;
     margin: 0;
