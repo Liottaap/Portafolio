@@ -5,25 +5,38 @@ body, h1, h2, p, ul {
 }
 
 body {
+    background-color: #2c1717;
     font-family: 'Arial', sans-serif;
-    background-color: #deddd2;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 #encabezado {
-    background-color: #1b2d41;
+    background-image: url('./images/fondo-acuarela.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Cubre todo el fondo */
+    background-position: center; /* Centra la imagen */
+
+    margin: 0; /* Elimina los márgenes predeterminados del body */
+    padding: 0;
     color: #deddd2;
     text-align: center;
     padding: 10px;
 }
-#descripcion img{
 
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
+.contenedor-img {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Centra la imagen horizontalmente */
+
 }
+.contenedor-img img{
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
 
 nav ul {
     list-style-type: none;
@@ -44,14 +57,26 @@ a {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #9a9ea1;
+    background-color: #c2adc1;
     border: 1px solid #ddd;
+    text-align: center;
 }
 
 footer {
+    
+    background-image: url('./images/fondo-acuarela.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Cubre todo el fondo */
+    background-position: center; /* Centra la imagen */
+    margin: 0; /* Elimina los márgenes predeterminados del body */
+    padding: 0;
     margin-top: 20px;
     text-align: center;
     padding: 10px;
-    background-color: #1b2d41;
     color: #deddd2;
+}
+.img-logo {
+    width: 30px;
+    height: 30px;
+    margin: 0%;
+    border-radius: 40%;
 }
